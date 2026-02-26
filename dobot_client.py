@@ -96,8 +96,7 @@ class DobotClient:
 
     def run_task1(self):
         """
-        Calls the external lab_1.py file to execute a specific task.
+        Calls the external lab_1.py file to run task.
         """
-        print("Executing Task 1 from lab_1.py...")
-        # Pass 'self' to lab_1 so it can use this exact robot instance to move
-        lab_1.execute_movements(self)
+        print("Executing Task...")
+        lab_1.move(self)
