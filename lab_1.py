@@ -1,3 +1,6 @@
+# Yasiru Fernando : 22345563
+# Ladurshi Sivapalan: 22295011
+
 import time
 
 def move(dobot):
